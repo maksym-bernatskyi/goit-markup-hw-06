@@ -233,6 +233,7 @@ ul {
   left: 50%;
   width: 528px;
   min-height: 581px;
+  padding: 40px;
   background-color: var(--primary-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -275,7 +276,6 @@ ul {
 }
 
 .modal-title {
-  margin-top: 40px;
   margin-bottom: 12px;
   font-weight: bold;
   font-size: 20px;
@@ -289,14 +289,12 @@ ul {
   display: flex;
   flex-direction: column;
   width: 448px;
-  margin-left: 40px;
-  margin-right: 40px;
 }
 
 .modal-label {
   display: block;
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
@@ -359,7 +357,6 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
@@ -386,7 +383,7 @@ ul {
 .checkbox:checked + .icon-check {
   border-color: var(--accent-color);
   background-color: var(--accent-color);
-  background-image: url('//images/sprite.svg#icon-check');
+  background-image: url('/images/check.svg');
   background-size: contain;
   background-origin: border-box;
 }
@@ -402,7 +399,7 @@ ul {
 .modal-button {
   width: 200px;
   height: 50px;
-  margin: 0 auto;
+  margin: 30px auto 40px auto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
