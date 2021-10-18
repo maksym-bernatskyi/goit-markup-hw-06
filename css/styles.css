@@ -383,7 +383,7 @@ ul {
 .checkbox:checked + .icon-check {
   border-color: var(--accent-color);
   background-color: var(--accent-color);
-  background-image: url('/images/check.svg');
+  background-image: url('../images/check.svg');
   background-size: contain;
   background-origin: border-box;
 }
